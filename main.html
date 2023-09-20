@@ -6,12 +6,14 @@
 	<link rel="stylesheet" href="styles.css">
 	<style>
 		.player_one{
-			border:1px solid black;
-			border-radius:5px; 
-			background-color:rgb(255, 255, 255); 
-			padding:10px; 
-			margin:0px 40px; 
-			height:425px
+		 padding:10px;
+			
+
+		}
+		.player_two{
+			padding:10px;
+			text-align:center;
+
 		}
 	</style>
 </head>
@@ -28,14 +30,20 @@
 		</ul>
 	</div>
 	<h2 style="text-align:center">Now Playing...</h1>
-	<div class="player_one">
-		<div style="text-align:center">
+	<div style="border:1px solid black;
+			border-radius:5px; 
+			background-color:rgb(255, 255, 255); 
+			padding:10px; 
+			margin:0px 40px; 
+			height:500px">
+		<div class="player_one">
 			<video height="300px" width="500px" controls>
 			<source type="" src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4" >
 		</video>
 		</div>
 		<h2 style="text-align:center">MP3 songs</h1>
-		<div style="text-align:center; ">
+		<div class="player_two" >
+			<p>maan meri jaan</p>
 			<audio  controls>
 				<source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mpeg"/ >
 			</audio>
