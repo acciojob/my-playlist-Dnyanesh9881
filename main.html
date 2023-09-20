@@ -4,30 +4,40 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		.player_one{
+			border:1px solid black;
+			border-radius:5px; 
+			background-color:rgb(255, 255, 255); 
+			padding:10px; 
+			margin:0px 40px; 
+			height:425px
+		}
+	</style>
 </head>
 
 <body style="background-color:rgb(204, 204, 204); margin:25px;">
 	<h1 style="text-align:center">My Playlist</h1>
 	<div style="border:1px solid black; border-radius:5px; background-color:white;">
-		<ul style="list-style-type: none; text-decoration-line: none">
-			<li><a target="_blank" href="Song 1"></a>Song 1</li>
-			<li><a target="_blank"></a>Song 2</li>
-			<li><a target="_blank"></a>Song 3</li>
-			<li><a target="_blank"></a>Song 4</li>
-			<li><a target="_blank"></a>Song 5</li>
+		<ul style="list-style-type: none;">
+			<li><a style=" text-decoration-line: none;" target="_blank" href="Song 1"></a>Song 1</li>
+			<li><a style=" text-decoration-line: none;" target="_blank"></a>Song 2</li>
+			<li><a style=" text-decoration-line: none;" target="_blank"></a>Song 3</li>
+			<li><a style=" text-decoration-line: none;" target="_blank"></a>Song 4</li>
+			<li><a style=" text-decoration-line: none;" target="_blank"></a>Song 5</li>
 		</ul>
 	</div>
 	<h2 style="text-align:center">Now Playing...</h1>
-	<div style="border:1px solid black; border-radius:5px; background-color:white; padding:10px; margin:0px 40px; height:425px">
+	<div class="player_one">
 		<div style="text-align:center">
 			<video height="300px" width="500px" controls>
-			<source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4" >
+			<source type="" src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4" >
 		</video>
 		</div>
 		<h2 style="text-align:center">MP3 songs</h1>
 		<div style="text-align:center; ">
-			<audio height="50px" width="50" controls>
-				<source src="https://www.pagalworld.com.se/files/download/id/64630" / >
+			<audio  controls>
+				<source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mpeg"/ >
 			</audio>
 		</div>
 	</div>
